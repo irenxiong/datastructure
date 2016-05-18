@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding=utf-8
+import sys
+#最大递归深度
+sys.setrecursionlimit(5000)
 
 #从有向图graph中获取一条从begin到end的路径, 无路径返回None
 def get_one_path(graph, begin, end, one_path=[]):
